@@ -1,3 +1,4 @@
+/*
 import 'dart:html';
 
 import 'package:sqflite/sqflite.dart';
@@ -109,3 +110,4 @@ class Bebida {
     };
   }
 }
+*/

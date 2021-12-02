@@ -1,3 +1,4 @@
+/*
 import 'package:sqflite/sqflite.dart';
 import 'tablas.dart';
 import 'package:path/path.dart';
@@ -77,3 +78,4 @@ class DB {
     ));
   }
 }
+*/
