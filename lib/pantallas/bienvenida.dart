@@ -18,74 +18,12 @@ class Bienvenida extends StatelessWidget {
               height: 200.0,
             ),
             Text(
-              "Nombre",
+              "Bienvenido al restaurante",
               style: Theme.of(context).textTheme.headline1,
-            ),
-            TextField(
-              autofocus: true,
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: Colors.lightBlue,
-              ),
-              cursorColor: Colors.lightBlue,
-              decoration: InputDecoration(
-                hintText: "Escriba su nombre",
-                enabledBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(7),
-                  ),
-                  borderSide: BorderSide(
-                    color: Colors.blueGrey,
-                    width: 3,
-                  ),
-                ),
-                focusedBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(7),
-                  ),
-                  borderSide: BorderSide(
-                    color: Colors.blueGrey,
-                    width: 3,
-                  ),
-                ),
-                fillColor: Colors.black12,
-                filled: true,
-              ),
             ),
             Text(
-              "contrasena",
+              "Es un gusto atenderle",
               style: Theme.of(context).textTheme.headline1,
-            ),
-            TextField(
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: Colors.lightBlue,
-              ),
-              cursorColor: Colors.lightBlue,
-              obscureText: true,
-              decoration: InputDecoration(
-                hintText: "Escriba su contrasena",
-                enabledBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(7),
-                  ),
-                  borderSide: BorderSide(
-                    color: Colors.blueGrey,
-                    width: 3,
-                  ),
-                ),
-                focusedBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(7),
-                  ),
-                  borderSide: BorderSide(
-                    color: Colors.blueGrey,
-                    width: 3,
-                  ),
-                ),
-                fillColor: Colors.black12,
-                filled: true,
-              ),
             ),
             MaterialButton(
               color: Theme.of(context).primaryColor,

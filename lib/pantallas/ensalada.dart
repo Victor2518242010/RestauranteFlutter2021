@@ -151,13 +151,13 @@ class _ensaladasState extends State<ensaladas> {
                           child: Column(
                             children: [
                               dishWidget("ensalada1", "Ensalada Rusa",
-                                  "Pequeña descripcion"),
+                                  "Deliciosa ensalada con remolacha"),
                               dishWidget("ensalada2", "Ensalada Griega",
-                                  "Pequeña descripcion"),
+                                  "Un platillo del olimpo"),
                               dishWidget("ensalada3", "Ensalada Mixta",
-                                  "Pequeña descripcion"),
+                                  "Es muy saludable"),
                               dishWidget("ensalada4", "Ensalada de papa",
-                                  "Pequeña descripcion"),
+                                  "Sabrosa y nutritiva"),
                             ],
                           ),
                         )

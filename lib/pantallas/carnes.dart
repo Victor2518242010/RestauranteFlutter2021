@@ -138,13 +138,12 @@ class _carnesState extends State<carnes> {
                           child: Column(
                             children: [
                               dishWidget(
-                                  "carne1", "Ternera", "Pequeña descripcion"),
-                              dishWidget(
-                                  "carne2", "Cerdo", "Pequeña descripcion"),
+                                  "carne1", "Ternera", "Ternera a la parrilla"),
+                              dishWidget("carne2", "Cerdo", "Lomo suave"),
                               dishWidget("carne3", "Pescado al carbon",
-                                  "Pequeña descripcion"),
-                              dishWidget("carne4", "Pollo asado",
-                                  "Pequeña descripcion"),
+                                  "occinado a fuego vivo"),
+                              dishWidget(
+                                  "carne4", "Pollo asado", "Entero al horno"),
                             ],
                           ),
                         )

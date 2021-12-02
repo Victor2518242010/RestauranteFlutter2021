@@ -237,14 +237,12 @@ class _bebidasState extends State<bebidas> {
                           scrollDirection: Axis.horizontal,
                           child: Column(
                             children: [
-                              dishWidget("bebida1", "Vino tinto",
-                                  "Pequeña descripcion"),
-                              dishWidget("bebida2", "Te de limon",
-                                  "Pequeña descripcion"),
                               dishWidget(
-                                  "bebida3", "Gaseosa", "Pequeña descripcion"),
+                                  "bebida1", "Vino tinto", "vino tinto Merlot"),
                               dishWidget(
-                                  "bebida4", "Café", "Pequeña descripcion"),
+                                  "bebida2", "Te de limon", "Bebida fría"),
+                              dishWidget("bebida3", "Gaseosa", "Coca Cola"),
+                              dishWidget("bebida4", "Café", "Café Latte"),
                             ],
                           ),
                         )

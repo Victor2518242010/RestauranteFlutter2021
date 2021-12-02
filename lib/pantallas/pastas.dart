@@ -238,13 +238,13 @@ class _pastasState extends State<pastas> {
                           child: Column(
                             children: [
                               dishWidget("pasta1", "Lasaña de pollo",
-                                  "Pequeña descripcion"),
+                                  "Sabor exepcional"),
                               dishWidget("pasta2", "Lasaña de vegetales",
-                                  "Pequeña descripcion"),
+                                  "La opcion vegetariana"),
                               dishWidget("pasta3", "Pasta alfredo",
-                                  "Pequeña descripcion"),
+                                  "Con pollo y brocoli"),
                               dishWidget("pasta4", "Ravioles con jamon",
-                                  "Pequeña descripcion"),
+                                  "Ravioles + jamon + espinacas"),
                             ],
                           ),
                         )
